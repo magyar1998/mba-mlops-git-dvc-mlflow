@@ -1,0 +1,36 @@
+stages:
+  cleaning:
+    cmd: python scr/cleaning.py
+    deps:
+     - data/sim_slice.npy
+     - data/seismic_slice.npy
+     - scr/cleaning.py
+    outs:
+     - output/sim_clean.npy
+     - output/seismic_slice_clean.npy
+  training:
+    cmd: python scr/training.py
+    deps:
+     - output/sim_clean.npy
+     - scr/training.py
+    outs:
+     - output/X.npy
+     - output/y.npy
+     - output/model.pkl
+  inference:
+    cmd: python scr/inference.py
+    deps:
+     - output/model.pkl
+     - data/seismic_slice.npy
+     - scr/inference.py
+    outs:
+     - output/seis_estimated.npy
+  evaluation:
+    cmd: python scr/evaluation.py
+    deps:
+     - output/seis_estimated.npy
+     - data/seismic_slice_GT.npy
+     - output/sim_clean.npy
+     - scr/evaluation.py
+    outs:
+     - output/residuos.npy

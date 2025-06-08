@@ -1,0 +1,5 @@
+horários:
+
+cleaning - > 1h15min
+training - > 1h19min55s
+inference - > 1h36min46s
