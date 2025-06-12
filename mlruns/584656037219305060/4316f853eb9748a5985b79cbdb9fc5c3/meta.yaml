@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/584656037219305060/4316f853eb9748a5985b79cbdb9fc5c3/artifacts
+end_time: 1749675240210
+entry_point_name: ''
+experiment_id: '584656037219305060'
+lifecycle_stage: active
+run_id: 4316f853eb9748a5985b79cbdb9fc5c3
+run_name: Least Angle Regression
+run_uuid: 4316f853eb9748a5985b79cbdb9fc5c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749675239518
+status: 3
+tags: []
+user_id: '99837631'

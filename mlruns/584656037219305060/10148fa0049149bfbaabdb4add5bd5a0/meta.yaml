@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/584656037219305060/10148fa0049149bfbaabdb4add5bd5a0/artifacts
+end_time: 1749690692661
+entry_point_name: ''
+experiment_id: '584656037219305060'
+lifecycle_stage: active
+run_id: 10148fa0049149bfbaabdb4add5bd5a0
+run_name: Gradient Boosting Regressor
+run_uuid: 10148fa0049149bfbaabdb4add5bd5a0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749690691876
+status: 3
+tags: []
+user_id: '99837631'

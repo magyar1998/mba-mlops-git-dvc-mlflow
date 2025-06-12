@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/584656037219305060/35c1dfd9c1f14c8a989adce91c3655c7/artifacts
+end_time: 1749690783223
+entry_point_name: ''
+experiment_id: '584656037219305060'
+lifecycle_stage: active
+run_id: 35c1dfd9c1f14c8a989adce91c3655c7
+run_name: Dummy Regressor
+run_uuid: 35c1dfd9c1f14c8a989adce91c3655c7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749690782283
+status: 3
+tags: []
+user_id: '99837631'

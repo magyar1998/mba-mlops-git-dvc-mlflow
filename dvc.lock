@@ -92,3 +92,19 @@ stages:
       hash: md5
       md5: cfcaefa904ecd7c9cbda9092dad0b116
       size: 9314720
+  training_automl:
+    cmd: python scr/training_automl.py
+    deps:
+    - path: output/sim_clean.npy
+      hash: md5
+      md5: a1708ba6bf248dbd4990063fd5c9377c
+      size: 70112
+    - path: scr/training_automl.py
+      hash: md5
+      md5: f131877438f7007058a642f9bd95c069
+      size: 1053
+    outs:
+    - path: output/best_model_pycaret.pkl
+      hash: md5
+      md5: 148d6d4523898dad8b6c334cacc212c2
+      size: 11596152
